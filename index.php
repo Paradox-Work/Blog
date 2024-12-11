@@ -5,7 +5,7 @@ echo "<link rel='stylesheet' href='style.css'>";
 echo"woaw<br>";
 
 $db= new Database();
-$comments = $db->query();
+$comments = $db->query('SELECT * FROM comments');
 //dabut bloga ierakstus
 
 
